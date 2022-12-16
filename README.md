@@ -22,7 +22,7 @@ The `pages/api` directory is mapped to `/api/*`. Files in this directory are tre
 
 -next.js
 -tailwindcss
--
+-Tailwind CSS IntelliSense
 
 To learn more about Next.js, take a look at the following resources:
 
