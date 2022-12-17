@@ -39,9 +39,9 @@ export default function Home() {
             </ul>
           </nav>
           <div className='text-center p-10'>
-            <h2 className='text-5xl py-2 text-teal-600 font-medium'>James Xalis</h2>
-            <h3 className=' text-2xl py-2'>Developer and desinger.</h3>
-            <p className=' text-md py-5 leading-8 text-gray-800'>
+            <h2 className='text-5xl py-2 text-teal-600 font-medium md:text-6xl'>James Xalis</h2>
+            <h3 className=' text-2xl py-2 md:text-3xl'>Developer and desinger.</h3>
+            <p className=' text-md py-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto'>
               Freelancer providing services for programing and web design needs. Join me down below and lets get coding!
             </p>
             </div>
@@ -50,7 +50,7 @@ export default function Home() {
               <AiFillLinkedin/>
               <AiFillYoutube/>
           </div>
-          <div className='realative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden'>
+          <div className='realative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96'>
             <Image src={deved} />
           </div>
         </section>
@@ -65,7 +65,7 @@ export default function Home() {
               I offer a wide range of services, including web desigin, programing, and teaching. 
             </p>
           </div>
-          <div>
+          <div className='lg:flex gap-10'>
             <div className='text-center shadow-lg p-10 rounded-xl my-10'>
               <Image src={design} width={100} height={100}/>
               <h3 className='text-lg font-medium pt-8 pb-2'>Beautiful Desings</h3>
@@ -111,24 +111,24 @@ export default function Home() {
               I offer a wide range of services, including web desigin, programing, and teaching. 
             </p>
           </div>
-          <div>
-            <div>
-              <Image src={web1}/>
+          <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
+            <div className='basis-1/3 flex-1'>
+              <Image src={web1} className='rounded-lg object-voer' width={'100%'} height={'100%'} responsive />
             </div>
-            <div>
-              <Image src={web2}/>
+            <div className='basis-1/3 flex-1'>
+              <Image src={web2} className='rounded-lg object-voer' width={'100%'} height={'100%'} responsive/>
             </div>
-            <div>
-              <Image src={web3}/>
+            <div className='basis-1/3 flex-1'>
+              <Image src={web3} className='rounded-lg object-voer' width={'100%'} height={'100%'} responsive/>
             </div>
-            <div>
-              <Image src={web4}/>
+            <div className='basis-1/3 flex-1'>
+              <Image src={web4} className='rounded-lg object-voer' width={'100%'} height={'100%'} responsive/>
             </div>
-            <div>
-              <Image src={web5}/>
+            <div className='basis-1/3 flex-1'>
+              <Image src={web5} className='rounded-lg object-voer' width={'100%'} height={'100%'} responsive/>
             </div>
-            <div>
-              <Image src={web6}/>
+            <div className='basis-1/3 flex-1'>
+              <Image src={web6} className='rounded-lg object-voer' width={'100%'} height={'100%'} responsive/>
             </div>
           </div>
         </section>
