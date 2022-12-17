@@ -65,7 +65,7 @@
 
 * [![Next][Next.js]][Next-url]
 * [![React][React.js]][React-url]
-* [![Tailwind][Tailwindcss.com]][Tailwind-url]]
+* [![Tailwind Css][Tailwind.com]][Tailwind-url]]
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -110,7 +110,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 - [ ] Add new Blender images
 - [ ] Attach downloadable Resume
 - [ ] Add most recent projects
-    - [ ] Update the ReadME files
+    - [ ] Move photos to Google Drive
 
 See the [open issues](https://github.com/JamesXalis/react-portfolio2/issues) for a full list of proposed features (and known issues).
 
@@ -145,7 +145,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 ## Contact
 
-James Xalis - [@jamesxalis](https://twitter.com/twitter_handle) - jamesxalis-ehotmail-ecom
+James Xalis - [@jamesxalis](https://twitter.com/twitter_handle) - jamesxalis@hotmail.com
 
 James Xalis Portfolio: [https://github.com/JamesXalis/react-portfolio2](https://github.com/JamesXalis/react-portfolio2)
 
@@ -165,8 +165,10 @@ James Xalis Portfolio: [https://github.com/JamesXalis/react-portfolio2](https://
 [issues-shield]: https://img.shields.io/github/issues/JamesXalis-github_username/react-portfolio2-repo_name.svg?style=for-the-badge
 [issues-url]: https://github.com/JamesXalis/react-portfolio2/issues
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/jamesxalis-[product-screenshot]: images/screenshot.png
+[linkedin-url]: https://linkedin.com/in/jamesxalis
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [Next-url]: https://nextjs.org/
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
+[Tailwindcss]: https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white
+[Tailwindcss-url]: https://tailwindcss.com 
