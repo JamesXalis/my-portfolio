@@ -65,7 +65,7 @@
 
 * [![Next][Next.js]][Next-url]
 * [![React][React.js]][React-url]
-* [![Tailwind Css][Tailwind.com]][Tailwind-url]]
+* [![Tailwind Css][Tailwindcss]][Tailwindcss-url]]
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
