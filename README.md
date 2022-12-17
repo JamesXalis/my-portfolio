@@ -5,7 +5,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/JamesXalis/react-portfolio2">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="/public/logo.png" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">My Portfolio</h3>
@@ -65,7 +65,7 @@
 
 * [![Next][Next.js]][Next-url]
 * [![React][React.js]][React-url]
-* [![Tailwind Css][Tailwindcss]][Tailwindcss-url]]
+* [![Tailwind Css][Tailwindcss]][Tailwindcss-url]
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
