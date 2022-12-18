@@ -12,7 +12,11 @@ import web3 from "../public/web3.png"
 import web4 from "../public/web4.png"
 import web5 from "../public/web5.png"
 import web6 from "../public/web6.png"
+import cardBattleGif from '../public/Card-Battle-gif.gif'
+import reelSearchGif from '../public/reel-search.gif'
 import { useState } from 'react'
+
+
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -65,67 +69,64 @@ export default function Home() {
         </section>
 
         <section>
-          <div className=' rounded-xl'>
+          <div className='text-center p-10'>
             <h3 className='text-3xl py-1 dark:text-white'>Services I offer</h3>
             <p className=' text-md py-2 leading-8 text-gray-800 dark:text-gray-200'>
-              Since the begining of my journey as a freelance designer and developer, ive done remote work for <span className='text-teal-500'> agencies </span> consulted for <span className='text-teal-500'> startups </span> and collaborated with talented poeople to create digital products for both busines and consumer use.
+              Since the begining of my journey as a freelance developer, I've built <span className='text-teal-500'> e-commerce </span> businesses, I've done <span className='text-teal-500'> remote work </span> for agencies, <span className='text-teal-500'> consulted </span> for clients and <span className='text-teal-500'> collaborated </span> with talented poeople to create digital products for both busines and consumer use.
             </p>
             <p className=' text-md py-2 leading-8 text-gray-800 dark:text-gray-200'>
-              I offer a wide range of services, including web desigin, programing, and teaching.
+              I offer a wide range of services, including web desigin, programing, and consulting.
             </p>
           </div>
           <div className='lg:flex gap-10'>
-            <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white'>
+            <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:bg-gray-200'>
               <Image src={design} width={100} height={100} />
-              <h3 className='text-lg font-medium pt-8 pb-2'>Beautiful Desings</h3>
+              <h3 className='text-lg font-medium pt-8 pb-2'>Web Design</h3>
               <p className='py-2'>
                 Creating elegant designs sutied for you needs follwoing core design thory.
               </p>
-              <h4 className='py-4 text-teal-600'>Design tools I use</h4>
-              <p className='text-gray-800 py-1'>Photoshop</p>
-              <p className='text-gray-800 py-1'>Illustrator</p>
-              <p className='text-gray-800 py-1'>Figma</p>
+              <h4 className='py-4 text-teal-600'>Design Framworks</h4>
+              <p className='text-gray-800 py-1'>React.js</p>
+              <p className='text-gray-800 py-1'>Tailwindcss</p>
+              <p className='text-gray-800 py-1'>Bootstrap</p>
             </div>
-            <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white'>
+            <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:bg-gray-200'>
               <Image src={code} width={100} height={100} />
-              <h3 className='text-lg font-medium pt-8 pb-2'>Beautiful Desings</h3>
+              <h3 className='text-lg font-medium pt-8 pb-2'>Programing</h3>
               <p className='py-2'>
-                Creating elegant designs sutied for you needs follwoing core design thory.
+                I'm always on the look out for new languages. Here are just the top few that I know. 
               </p>
-              <h4 className='py-4 text-teal-600'>Design tools I use</h4>
-              <p className='text-gray-800 py-1'>Photoshop</p>
-              <p className='text-gray-800 py-1'>Illustrator</p>
-              <p className='text-gray-800 py-1'>Figma</p>
+              <h4 className='py-4 text-teal-600'>Programing Languages</h4>
+              <p className='text-gray-800 py-1'>JavaScript/TypeScript</p>
+              <p className='text-gray-800 py-1'>Python</p>
+              <p className='text-gray-800 py-1'>Java</p>
             </div>
-            <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white'>
+            <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:bg-gray-200'>
               <Image src={consulting} width={100} height={100} />
-              <h3 className='text-lg font-medium pt-8 pb-2'>Beautiful Desings</h3>
+              <h3 className='text-lg font-medium pt-8 pb-2'>Consulting</h3>
               <p className='py-2'>
-                Creating elegant designs sutied for you needs follwoing core design thory.
+                Consulting from your first website to starting and growing your business.
               </p>
-              <h4 className='py-4 text-teal-600'>Design tools I use</h4>
-              <p className='text-gray-800 py-1'>Photoshop</p>
-              <p className='text-gray-800 py-1'>Illustrator</p>
+              <h4 className='py-4 text-teal-600'>Business tools I use</h4>
+              <p className='text-gray-800 py-1'>Slack</p>
+              <p className='text-gray-800 py-1'>Meta Business Suite</p>
               <p className='text-gray-800 py-1'>Figma</p>
             </div>
           </div>
         </section>
         <section>
-          <div className=' rounded-xl'>
+          <div className=' rounded-xl text-center p-10'>
             <h3 className='text-3xl py-1 dark:text-white'>Portfolio</h3>
             <p className=' text-md py-2 leading-8 text-gray-800 dark:text-gray-200 '>
-              Since the begining of my journey as a freelance designer and developer, ive done remote work for <span className='text-teal-500'> agencies </span> consulted for <span className='text-teal-500'> startups </span> and collaborated with talented poeople to create digital products for both busines and consumer use.
-            </p>
-            <p className=' text-md py-2 leading-8 text-gray-800 dark:text-gray-200'>
-              I offer a wide range of services, including web desigin, programing, and teaching.
+              Here are a few projects I've worked on recently. 
             </p>
           </div>
           <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
             <div className='basis-1/3 flex-1'>
-              <Image src={web1} className='rounded-lg object-voer' width={'100%'} height={'100%'} responsive='true' />
+              <Image src={cardBattleGif} className='rounded-lg object-voer' width={'100%'} height={'100%'} responsive='true' />
             </div>
             <div className='basis-1/3 flex-1'>
-              <Image src={web2} className='rounded-lg object-voer' width={'100%'} height={'100%'} responsive='true' />
+              <Image src={reelSearchGif} className='rounded-lg object-voer' width={'100%'} height={'100%'} responsive='true' />
             </div>
             <div className='basis-1/3 flex-1'>
               <Image src={web3} className='rounded-lg object-voer' width={'100%'} height={'100%'} responsive='true' />
@@ -139,6 +140,11 @@ export default function Home() {
             <div className='basis-1/3 flex-1'>
               <Image src={web6} className='rounded-lg object-voer' width={'100%'} height={'100%'} responsive='true' />
             </div>
+            <div className=' rounded-xl '>
+            <p className=' text-md py-2 leading-8 text-gray-800 dark:text-gray-200 '>
+              When you're ready,<span className='text-teal-500'> contact me </span> and lets build something together.
+            </p>
+          </div>
           </div>
         </section>
       </main>
