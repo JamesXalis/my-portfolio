@@ -1,7 +1,7 @@
 {
   "name": "my-portfolio",
   "version": "0.1.0",
-  "homepage": "https://jamesxalis.github.io/react-portfolio2/",
+  "homepage": "https://jamesxalis.github.io/my-portfolio/",
   "private": true,
   "scripts": {
     "predeploy": "npm run build",
