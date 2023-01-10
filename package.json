@@ -1,8 +1,11 @@
 {
   "name": "my-portfolio",
   "version": "0.1.0",
+  "homepage": "https://jamesxalis.github.io/react-portfolio2/",
   "private": true,
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
@@ -17,6 +20,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.13",
+    "gh-pages": "^4.0.0",
     "init-p": "^1.0.0",
     "npx": "^10.2.2",
     "postcss": "^8.4.20",
