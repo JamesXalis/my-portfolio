@@ -4,7 +4,7 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/JamesXalis/react-portfolio2">
+  <a href="https://my-portfolio-eagicctji-jamesxalis.vercel.app/">
     <img src="/public/logo.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -13,7 +13,7 @@
   <p align="center">
     A portfolio to showcase some of my previous work
     <br />
-    <a href="https://github.com/JamesXalis/react-portfolio2"><strong>Explore the docs »</strong></a>
+    <a href="https://my-portfolio-eagicctji-jamesxalis.vercel.app/"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://github.com/JamesXalis/react-portfolio2">View Demo</a>
