@@ -13,6 +13,7 @@ import web6 from "../public/web6.png"
 import cardBattleGif from '../public/Card-Battle-gif.gif'
 import reelSearchGif from '../public/reel-search.gif'
 import { useState } from 'react'
+import reactDashGif from '../public/reactDashboard.gif'
 
 
 
@@ -127,7 +128,7 @@ export default function Home() {
               <Image src={reelSearchGif} className='rounded-lg object-voer' width={'100%'} height={'100%'} responsive='true' />
             </div>
             <div className='basis-1/3 flex-1'>
-              <Image src={web3} className='rounded-lg object-voer' width={'100%'} height={'100%'} responsive='true' />
+              <Image src={reactDashGif} className='rounded-lg object-voer' width={'100%'} height={'100%'} responsive='true' />
             </div>
             <div className='basis-1/3 flex-1'>
               <Image src={web4} className='rounded-lg object-voer' width={'100%'} height={'100%'} responsive='true' />
