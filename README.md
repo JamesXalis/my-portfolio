@@ -5,7 +5,7 @@
 <br />
 <div align="center">
   <a href="https://my-portfolio-eagicctji-jamesxalis.vercel.app/">
-    <img src="/public/logo.png" alt="Logo" width="80" height="80">
+    <img src="/public/portfolio.png" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">My Portfolio</h3>
