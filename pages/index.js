@@ -71,7 +71,7 @@ export default function Home() {
           <div className='text-center p-10'>
             <h3 className='text-3xl py-1 dark:text-white'>Services I offer</h3>
             <p className=' text-md py-2 leading-8 text-gray-800 dark:text-gray-200'>
-              Since the begining of my journey as a freelance developer, I've built <span className='text-teal-500'> e-commerce </span> businesses, I've done <span className='text-teal-500'> remote work </span> for agencies, <span className='text-teal-500'> consulted </span> for clients and <span className='text-teal-500'> collaborated </span> with talented poeople to create digital products for both busines and consumer use.
+              Since the begining of my journey as a freelance developer, I've built <span className='text-teal-500'> e-commerce </span> businesses, I've done <span className='text-teal-500'> remote work </span> for agencies, <span className='text-teal-500'> consulted </span> for clients and <span className='text-teal-500'> collaborated </span> with talented people to create digital products for both busines and consumer use.
             </p>
             <p className=' text-md py-2 leading-8 text-gray-800 dark:text-gray-200'>
               I offer a wide range of services, including web desigin, programing, and consulting.

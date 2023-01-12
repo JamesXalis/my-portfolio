@@ -55,6 +55,8 @@
 
 ## About The Project
 
+This is my portfolio showcasing my recent projects. It has a light and dark mode (I prefer dark mode), a few of my recent projects, and a place to contact me. It was built with react and Next.js, I used Tailwind for the css styling. 
+
   <a href="https://my-portfolio-eagicctji-jamesxalis.vercel.app/">
     <img src="/public/portfolioServices.png" alt="Logo">
   </a>
