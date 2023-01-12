@@ -55,7 +55,9 @@
 
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+  <a href="https://my-portfolio-eagicctji-jamesxalis.vercel.app/">
+    <img src="/public/portfolioServices.png" alt="Logo">
+  </a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
